@@ -1,3 +1,17 @@
+gettext (0.19.7-2ubuntu3.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Invalid free
+    - debian/patches/CVE-2018-18751.patch: fix in
+      gettext-tools/src/po-gram-gen.y,
+      gettext-tools/src/read-catalog.c,
+      gettext-tools/tests/Makefile.am,
+      gettext-tools/tests/xgettext-po-2.
+   - CVE-2018-18751
+  * Add bison as build-dep since gettext runs/needs yacc in build time
+    - debian/control
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Wed, 07 Nov 2018 15:33:51 -0300
+
 gettext (0.19.7-2ubuntu3) xenial; urgency=medium
 
   * gettext: Move preloadable_libintl.so into the multiarch libdir.
