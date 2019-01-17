@@ -1,3 +1,9 @@
+gettext (0.19.7-2ubuntu3.1bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Thu, 17 Jan 2019 10:59:29 +0100
+
 gettext (0.19.7-2ubuntu3.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Invalid free
